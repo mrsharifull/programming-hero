@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h3>Student Form</h3>
+    <form>
+        <label for="name">Name
+            <input type="text" name="name" id="name" placeholder="Your name">
+        </label><br><br>
+        <label for="email">Email
+            <input type="email" name="email" id="email" placeholder="Your email">
+        </label><br><br>
+        <label for="phone">Mobile Number
+            <input type="number" name="phone" id="phone"placeholder="Your phone number">
+        </label><br><br>
+        <fieldset>
+            <legend>Class</legend>
+            <label for="one">
+                <input type="radio" name="class" id="one">
+                One
+            </label><br><br>
+            <label for="two">
+                <input type="radio" name="class" id="two">
+                Two
+            </label><br><br>
+            <label for="three">
+                <input type="radio" name="class" id="three">
+                Three
+            </label><br><br>
+            <label for="four">
+                <input type="radio" name="class" id="four">
+                Four
+            </label><br><br>
+            <label for="five">
+                <input type="radio" name="class" id="five">
+                Five
+            </label><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Your Hobbies</legend>
+            <label for="cricket">
+                <input type="checkbox" name="hobby" id="cricket">
+                Cricket
+            </label><br><br>
+            <label for="football">
+                <input type="checkbox" name="hobby" id="football">
+                Football
+            </label><br><br>
+            <label for="travel">
+                <input type="checkbox" name="hobby" id="travel">
+                Travel
+            </label><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Your Self</legend>
+            <textarea name="intro" id="intro" cols="60" rows="3"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

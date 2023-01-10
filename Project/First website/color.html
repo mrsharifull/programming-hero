@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Describe</title>
+    <style>
+        h3{
+            /* all way for apply color */
+            color: red;
+            color: #ff0000;
+            color: hsl(0, 100%, 50%); /*HSL(Hue-Saturation-Lightness)*/
+            color: hwb(0 0% 0%); /*HWB stands for hue, whiteness and blackness.*/
+            color: rgb(255, 0, 0); /*RGB Color Values Each parameter (red, green, and blue)*/
+            color: rgba(255, 0, 0, 0.379); /*RGBA Color Values Each parameter (red, green, blue and alpha or opacity)*/
+        }
+        h1{
+            text-decoration: line-through red;
+        }
+        h2{
+            text-decoration: overline dotted red;
+        }
+        li{
+            text-decoration: underline wavy black;
+        }
+    </style>
+</head>
+<body>
+    <h3>Different way to apply styles</h3>
+    <h1>Different way to apply styles</h1>
+    <h2>Different way to apply styles</h2>
+    <ol>
+        <li>Inline css</li>
+        <li>Embedded or Internal css</li>
+        <li>External css</li>
+    </ol>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore flexbox</title>
+    <style>
+        .container{
+            border: 3px dotted purple;
+            height: 300px;
+            display: flex;
+            /* Harijontal flex */
+            /* justify-content: start; *//*default*/
+            /* justify-content: end; */
+            /* justify-content: center; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+            /* justify-content: space-around; */
+            /* Vertical flex */
+            /* align-items: flex-end; */
+            /* align-items: center; */
+            /* Flex direction */
+            /* flex-direction: row; *//*default*/
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+
+            flex-wrap: wrap;
+            align-items: stretch;
+        }
+        .box{
+            font-size: 3ex;
+            font-weight: 700;
+            /* height: 100px; */
+            width: 100px;
+            border: 3px dashed peru;
+        }
+        #last-box{
+            flex-grow: 1;
+        }
+
+        .flex-test{
+            height: 400px;
+            border: 3px dashed pink;
+            display: flex;
+            justify-content:space-between;
+            align-items: stretch;
+            flex-wrap: wrap;
+        }
+        .flex-box{
+            /* height: 100px; */
+            width: 100px;
+            font-size: 4ex;
+            font-weight: 700;
+            border: 2px solid tomato;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box" id="last-box">Box-44</div>
+    </div>
+    <div class="flex-test">
+        <div class="flex-box">Flex box-1</div>
+        <div class="flex-box">Flex box-2</div>
+        <div class="flex-box">Flex box-3</div>
+        <div class="flex-box">Flex box-4</div>
+        <div class="flex-box">Flex box-5</div>
+        <div class="flex-box">Flex box-6</div>
+        <div class="flex-box">Flex box-7</div>
+        <div class="flex-box">Flex box-8</div>
+        <div class="flex-box">Flex box-9</div>
+        <div class="flex-box">Flex box-10</div>
+        <div class="flex-box">Flex box-11</div>
+        <div class="flex-box">Flex box-12</div>
+        <div class="flex-box">Flex box-13</div>
+        <div class="flex-box">Flex box-14</div>
+        <div class="flex-box">Flex box-15</div>
+        <div class="flex-box">Flex box-16</div>
+        <div class="flex-box">Flex box-17</div>
+        <div class="flex-box">Flex box-18</div>
+        <div class="flex-box">Flex box-19</div>
+        <div class="flex-box">Flex box-20</div>
+    </div>
+</body>
+</html>
